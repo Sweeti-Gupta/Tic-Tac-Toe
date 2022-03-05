@@ -1,0 +1,28 @@
+.square {
+  min-width: 85px;
+  min-height: 85px;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.greenish {
+  color: greenyellow;
+}
+
+@media only screen and (max-width: 500px) {
+  .square {
+    min-width: 45px;
+    min-height: 45px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 13px;
+  }
+}

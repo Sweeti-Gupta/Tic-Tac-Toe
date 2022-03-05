@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
 .heading {
   font-size: 1.87rem;
   font-weight: bold;
@@ -5,6 +7,7 @@
   margin: 2.2rem;
   color: #ff0000;
   letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -56,13 +59,16 @@ body {
 }
 
 .clear {
-  padding: 3px 5px;
+  padding: 3px 7px;
   font-size: 1rem;
   cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
 }
 
 .mov {
   font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 500px) {
